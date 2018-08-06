@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="res">
+    <file>designer/icons/01_Warning_48x48.png</file>
+    <file>designer/icons/02_Recycle_48x48.png</file>
+    <file>designer/icons/04_Save_48x48.png</file>
+    <file>designer/icons/05_Edit_48x48.png</file>
+    <file>designer/icons/07_Draw_48x48.png</file>
+    <file>designer/icons/10_Search_48x48.png</file>
+    <file>designer/icons/14_Delete_48x48.png</file>
+    <file>designer/icons/15_Photo_48x48.png</file>
+    <file>designer/icons/15_Tick_48x48.png</file>
+    <file>designer/icons/16_Copy_48x48.png</file>
+    <file>designer/icons/17_Paste_48x48.png</file>
+    <file>designer/icons/19_Games_48x48.png</file>
+    <file>designer/icons/19_Left_Arrow_48x48.png</file>
+    <file>designer/icons/20_Right_Arrow_48x48.png</file>
+    <file>designer/icons/21_Up_Arrow_48x48.png</file>
+    <file>designer/icons/22_Down_Arrow_48x48.png</file>
+    <file>designer/icons/24_Music_48x48.png</file>
+    <file>designer/icons/29_House_48x48.png</file>
+    <file>designer/icons/30_Office_48x48.png</file>
+    <file>designer/icons/41_Clock_48x48.png</file>
+  </qresource>
+</RCC>
