@@ -14,7 +14,7 @@
    <string>{{cookiecutter.application_title}}</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../resources.qrc">
+   <iconset>
     <normaloff>:/res/designer/icons/01_Warning_48x48.png</normaloff>:/res/designer/icons/01_Warning_48x48.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -70,7 +70,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -99,21 +99,37 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionSave">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/res/icons/04_Save_48x48.png</normaloff>:/res/icons/04_Save_48x48.png</iconset>
+   </property>
    <property name="text">
     <string>Save</string>
    </property>
   </action>
   <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/res/icons/14_Delete_48x48.png</normaloff>:/res/icons/14_Delete_48x48.png</iconset>
+   </property>
    <property name="text">
     <string>Quit</string>
    </property>
   </action>
   <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/res/icons/16_Copy_48x48.png</normaloff>:/res/icons/16_Copy_48x48.png</iconset>
+   </property>
    <property name="text">
     <string>Copy</string>
    </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/res/icons/15_Tick_48x48.png</normaloff>:/res/icons/15_Tick_48x48.png</iconset>
+   </property>
    <property name="text">
     <string>About</string>
    </property>
@@ -125,7 +141,7 @@
   <tabstop>cancelButton</tabstop>
  </tabstops>
  <resources>
-  <include location="../resources.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections/>
 </ui>
